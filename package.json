@@ -1,0 +1,19 @@
+{
+  "name": "w_e_e_b",
+  "version": "1.0.0",
+  "description": "An anime web database in React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mar-jac",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "papaparse": "^5.1.1",
+    "react-table": "^7.0.0-rc.15",
+    "react-table-6": "^6.11.0"
+  }
+}
