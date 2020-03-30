@@ -3,11 +3,11 @@ import React from "react"
 const ResetButton = ({ onClick }) => {
     return (
         <i
-            className="reset-button"
+            className="fa fa-redo-alt reset-button"
             onClick={onClick}
             title="This will reset the database."
         >
-            <span>Reset</span>
+            <span style={{ marginLeft: 5 }}>Reset</span>
         </i>
     )
 }
