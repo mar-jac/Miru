@@ -5,7 +5,7 @@ import AniListContainer from "./ani-list/AniListContainer"
 import UserListContainer from "./user-list/UserListContainer"
 import MenuBar from "./navbar/menubar"
 import history from "../history"
-import {BrowserRouter as Router, Route, Switch } from "react-router-dom"
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 
 export default class App extends Component {
     render() {

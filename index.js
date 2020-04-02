@@ -19,10 +19,10 @@ Papa.parse(animeFile, {
 
 const aniArray = rows.data.map(section => {
 
-    const { uid, title, episodes, popularity, ranked, score, members, aired} = section;
+    const { uid, title, episodes, popularity, ranked, score, members} = section;
     const fixedName = title.replace(/,/g, ' ') // removes extra commas from names
 
-    return { uid, fixedName, episodes, popularity, ranked, score, members, aired}
+    return { uid, fixedName, episodes, popularity, ranked, score, members}
 });
 
 const aniData = Papa.unparse(aniArray);

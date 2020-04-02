@@ -7,7 +7,7 @@ class Actions {
     }
 
     deleteAnime(id) {
-    toastr.success(`Deleted anime with this id ${id} from Miru table`)
+    toastr.success(`Deleted anime with id ${id} from Miru table`)
     return id
     }
 

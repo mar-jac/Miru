@@ -1,10 +1,10 @@
 import alt from "../alt"
 import Actions from "../actions"
 
-const allURL = "http://localhost:5000/allAnime"
+const allURL = "http://localhost:5000/allAnime/"
 const deleteURL = "http://localhost:5000/deleteAnime/"
 const resetURL = "http://localhost:5000/resetAnime"
-const aniGenreURL = "http://localhost:5000/resetAnimeGenre"
+const resetAnimeGenreURL = "http://localhost:5000/resetAnimeGenre"
 
 class AnimeStore {
     constructor() {
@@ -29,11 +29,11 @@ class AnimeStore {
     }
 
     handleDeleteAnime = id => {
-        console.log(`AnimeStore :: handle deleted on anime_id ${id}`);
-        fetch( `${deleteURL}${id}`).then(() => {
-            this.handleAnime("")
+        console.log(`AnimeStore :: handle delete called on uid ${id}`)
+        fetch(`${deleteURL}${id}`).then(() => {
+          this.handleAnime("")
         })
-    }
+      }
 
     handleResetAnime = payload => {
         console.log(`AnimeStore :: handle reset anime table ${payload}`)
@@ -44,7 +44,7 @@ class AnimeStore {
 
     handleResetAnimeGenre = payload => {
         console.log(`AnimeStore :: handle reset anime genre table that has a ${payload}`)
-        fetch(`${aniGenreURL}`)
+        fetch(`${resetAnimeGenreURL}`)
     }
 }
 

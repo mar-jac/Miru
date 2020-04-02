@@ -23,12 +23,12 @@ app.get('/allAnime', (req, res) => {
     });
 });
 
-app.get('/deleteAnime/:id', (req, res) => {
-        const query = `DELETE FROM Anime WHERE uid = ${req.params.id}`
+app.get('deleteAnime/:id', (req, res) => {
+        const query = `DELETE FROM ANIME WHERE uid = ${req.params.id}`
         db.query(query, (err, rows) => {
                 if (err) throw err;
                 res.send(rows)
-        })
-})
+        });
+});
 
 app.listen(port, () => console.log(`The REST API is listening through port ${port}.`));
