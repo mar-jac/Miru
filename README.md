@@ -1,10 +1,10 @@
 #                                                           Miru
 
-                                                ![Miru Homepage](https://i.imgur.com/qpPiU4V.png)
-
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+
+![Miru Homepage](https://i.imgur.com/qpPiU4V.png)
 
 Miru is a MyAnimeList web application client made with React, Node, Express, and SQL!
 
