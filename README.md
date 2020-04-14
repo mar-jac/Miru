@@ -1,6 +1,6 @@
 #                                                           Miru
 
-                                                [![Miru Homepage](https://i.imgur.com/qpPiU4V.png)]
+                                                ![Miru Homepage](https://i.imgur.com/qpPiU4V.png)
 
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
